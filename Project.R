@@ -67,3 +67,4 @@ if (porcentagem_apolar > porcentagem_polar) {
             print(quantidade_cisteina)
             
             }
+  
