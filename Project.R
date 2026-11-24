@@ -1,4 +1,4 @@
-#O objetivo do código é ler uma String que represente uma cadeia de aminoácidos. Cada aminoácido é polar ou apolar. O Código relaciona a informação de polaridade a letra digitada e retorna a 
+#O objetivo do código é ler uma sequência que represente uma cadeia de aminoácidos. Cada aminoácido é polar ou apolar. O Código relaciona a informação de polaridade a letra digitada e retorna a 
 #informação junto com quanto dessa suposta proteína é apolar (em %) ou polar. O código também retorna a posição de cada aminoácido.
 
 
