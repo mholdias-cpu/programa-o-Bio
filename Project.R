@@ -60,4 +60,10 @@ if (porcentagem_apolar > porcentagem_polar) {
 } else {
   print("A sequência apresenta proporções iguais de aminoácidos polares e apolares.")
 }
+            
+#quantidade de cisteinas
+            
+            quantidade_cisteina <- sum(residuos == "C")
+            print(quantidade_cisteina)
+            
             }
