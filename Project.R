@@ -1,3 +1,10 @@
+#O objetivo do código é ler uma String que represente uma cadeia de aminoácidos. Cada aminoácido é polar ou apolar. O Código relaciona a informação de polaridade a letra digitada e retorna a 
+informação junto com quanto dessa suposta proteína é apolar (em %) ou polar. O código também retorna a posição de cada aminoácido.
+
+
+
+
+
 # Tabela dos aminoácidos
 codigo <- c("A", "R", "N", "D", "C", "Q", "E", "G",
             "H", "I", "L", "K", "M", "F", "P", "S",
@@ -11,6 +18,11 @@ polaridade <- c("Apolar", "Polar", "Polar", "Polar",
 
 # Solicitaa a sequência
 sequencia <- readline("Digite a sequência de aminoácidos: ")
+
+if (any(!residuos %in% codigo)) {
+            print("ERRO: aminoácido não encontrado")
+            }
+else {
 
 # Separa os aminoácidos
 residuos <- strsplit(toupper(sequencia), "")[[1]]
@@ -48,3 +60,4 @@ if (porcentagem_apolar > porcentagem_polar) {
 } else {
   print("A sequência apresenta proporções iguais de aminoácidos polares e apolares.")
 }
+            }
